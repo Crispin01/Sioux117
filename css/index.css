@@ -24,20 +24,109 @@ body {
 h1{
   font: var(--headline1);
   color: var(--primary);
+  font-size: 50px;
 }
 
 h2{
   font: var(--headline2);
+  font-size: 30px;
 }
-
+.cabecera {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.logo{
+  font-size: 18px;
+}
+.botoninicio{
+  background: #6610f2;
+}
+.boton1 {
+  padding: auto;
+  background: blue;
+  color: white;
+}
 p{
   font: var(--button);
 }
-.menu , .final{
-  list-style: none;
-}
 li {
+  list-style: none;
   display: inline-block;
   margin-left: 20px;
 }
-
+.frontend {
+  text-align: center;
+  padding-top: 120px;
+  font-size: 25px;
+}
+.compartir {
+  text-align: center;
+  padding-bottom: 150px;
+}
+.subtitulo {
+  margin-top: 100px;
+  background: blue;
+  color: white;
+  padding: 4px 15px;
+}
+.comentario {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+.comentario1 {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+.proyecto {
+  background: blue;
+  color: white;
+  padding: 5px 15px;
+}
+.codigo {
+  border: 3px solid blue;
+  color: blue;
+  padding: 4px 15px;
+}
+.cuadro {
+  background: linear-gradient(#edffff3d, #0c0e1408);
+  border-radius: 15px;
+  color:  white;
+}
+.habla {
+  font-size: 40px;
+  background: blue;
+  color: white;
+  text-align: center;
+  width: 420px;
+}
+input {
+  width: 420px;
+}
+textarea {
+  width: 420px;
+}
+.enviar {
+  width: 420px;
+  color: white;
+  background: blue;
+}
+.textoabajo {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+.pfinal {
+  font-size: 9px;
+  color: white;
+}
+.img {
+  background: white;
+  margin-left: 10px;
+  border: 1px solid blue;
+}
+.pie {
+  padding-top: 50px;
+}
